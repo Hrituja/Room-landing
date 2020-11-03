@@ -7,12 +7,13 @@ import About from "./About";
 import whiteImg from "./images/image-about-light.jpg";
 import darkImg from "./images/image-about-dark.jpg";
 import "./stylesheets/App.css";
+import SawoLogin from './sawologin';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-	<SawoLogin />
+	      <SawoLogin />
         <Navbar />
         <Carousel />
         <CTAction />
